@@ -1,0 +1,28 @@
+---
+title: "treehouse"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{treehouse}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(treehouse)
+```
+
+At this point, I have one package function `random_num`
+
+```{r}
+
+random_num()
+
+```
+

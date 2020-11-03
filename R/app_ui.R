@@ -10,7 +10,10 @@ app_ui <- function(request) {
     golem_add_external_resources(),
     # Your application UI logic 
     fluidPage(
-      h1("treehouse")
+      h1("treehouse"),
+      mod_first_module_ui("first_module_ui_01"),
+      mod_other_module_ui("other_module_ui_1"),
+      actionButton("alert", "alert")
     )
   )
 }
@@ -34,7 +37,13 @@ golem_add_external_resources <- function(){
     bundle_resources(
       path = app_sys('app/www'),
       app_title = 'treehouse'
-    )
+    ),
+    # from video: https://www.youtube.com/watch?v=3-p9XLvoJV0
+    # appears this is no longer needed
+    # tags$script(src="www/handlers"),
+    # tags$link(rel="stylesheet", type = "text/css", href = "www/custom.css")
+    
+    
     # Add here other external resources
     # for example, you can add shinyalert::useShinyalert() 
   )

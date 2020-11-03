@@ -51,7 +51,7 @@ golem::use_recommended_deps()
 
 ## Favicon ----
 # If you want to change the favicon (default is golem's one)
-golem::use_favicon("https://icons.iconarchive.com/icons/fatcow/farm-fresh/32/beer-icon.png") # path = "path/to/ico". Can be an online file. 
+golem::use_favicon("https://iconarchive.com/download/i18695/iconshock/real-vista-food/beer.ico") # path = "path/to/ico". Can be an online file. 
 golem::remove_favicon()
 
 ## Add helper functions ----

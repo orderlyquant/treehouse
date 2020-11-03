@@ -38,7 +38,7 @@ library(treehouse)
 ## basic example code
 ```
 
-What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:
+What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so and so:
 
 ```{r cars}
 summary(cars)
